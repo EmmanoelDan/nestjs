@@ -12,3 +12,10 @@ Content-Type: application/json
   "source_id": "1",
   "destination_id": "2"
 }
+
+## Coisas do mapa
+###
+GET http://localhost:4000/places?text=av governador valadares, betim, 1030
+
+###
+GET http://localhost:4000/directions?originId=ChIJl-wArPqWpgARBSSCS6XRNo4&destinationId=ChIJxzZvpXX1oQAR4oSg6EuCKzU
